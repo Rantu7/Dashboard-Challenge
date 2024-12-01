@@ -47,7 +47,7 @@ The dataset was loaded into Power BI’s power query and cleaned to prepare for 
 •	Added a conditional column to group some data
 
 ## Solving The Problems
-## LEVEL 1
+## LEVEL 1: Basic Insights
 
 ###	Find Mean, Median , Mode (Age)
 ![1](https://github.com/user-attachments/assets/a98ee4ce-27b9-42ef-ba2a-bb0774e0caa7)
@@ -160,7 +160,100 @@ Mobile: 33.74%, Desktop: 33.48%, Tablet: 32.78%
 
 Bank transfer with 1.05 million total purchase amount.
 
-### 
+
+
+
+## LEVEL 2 : Intermediate Insights
+
+### What are the average review scores of users of the most common payment method?
+
+![payment](https://github.com/user-attachments/assets/21f74b10-ce89-43c2-9edf-b836bc97ac35)
+
+![bank review](https://github.com/user-attachments/assets/a6fac4ae-67f4-4838-be22-9c88a180a229)
+
+Average review for Bank payment method is 2.99
+
+
+### 	What is the correlation between time spent on the website and purchase amount? Do customers who spend more time on the website purchase more items?
+
+
+![12](https://github.com/user-attachments/assets/c63df85a-904d-4e3c-a344-c529d4580801)
+
+There is no consistent correlation between time spent on the website and the purchase amount. The graph shows fluctuations, suggesting that spending more time on the website doesn’t necessarily lead to higher purchase amounts.
+
+
+### 	What percentage of customers are satisfied (rating of 4 or 5) and are also return customers?
+
+![13](https://github.com/user-attachments/assets/e103f8d2-2905-40a6-8365-730529d464d1)
+
+(2008/10000) *100 = 20.08% customers
+
+
+
+### 	What is the relationship between the number of items purchased and customer satisfaction?
+
+![14](https://github.com/user-attachments/assets/7e9cea94-8d51-4b38-a9c4-612081f7e05e)
+
+Customers with Medium satisfaction purchased the highest average amount of items at 5.06, followed by Low and Highly satisfied customers with 4.99 and 4.95 items respectively.
+
+
+
+### 	Which location has the 2nd highest average purchase amount?
+
+![15](https://github.com/user-attachments/assets/22030da9-bbfc-490c-8030-148e67f1acaf)
+
+Mymensingh at 507.89 average purchase amount.
+
+
+## LEVEL 3: Critical Thinking Insights
+
+### How do payment methods influence customer satisfaction and return rates?
+
+![Q2](https://github.com/user-attachments/assets/7e403f1f-6606-4084-8214-beaa322dfb38)
+
+To solve this problem a stacked bar chart was selected.  Each bar represented the number of return customers based on three levels of satisfaction – Low, Medium and High. Return customers who used Bank transfer, Debit Card and Credit card are more likely to be highly satisfied customers compared to other payment methods.
+
+
+### 	How does the location influence both purchase amount and delivery time?
+
+![Q3](https://github.com/user-attachments/assets/6d293859-bfee-4812-8018-ef8b646e7c0e)
+
+No major relationship was found. For Khulna, average purchase amount was highest while the average delivery time was found to be the lowest among other locations. A similar pattern was found in Rajshahi, where it faced the highest average delivery time but the purchase amount was significantly low.
+
+
+
+### 	What factors contribute most to a customer being classified as a return customer?
+
+To identify the factors that determine whether a customer is a return customer, the Return Customer slicer on the dashboard was activated and deactivated to find any change in other graphs and charts.  No exact factor was found. However, Payment method, Location, Product category and Device type showed slight change due to the return customer filter.
+
+
+## More Insights 
+
+1. Review scores are relatively high when delivery times are above 7.05 days. However, lower or higher delivery times show slightly lower review scores. Thus, an optimal delivery window of around 7.05 days should be maintained for high customer satisfaction.
+ ![in1](https://github.com/user-attachments/assets/ce628278-3b4a-4a7a-a771-651f2d15a2c3)
+
+
+2. It seems like, highly satisfied customers purchase the lowest amount of items in average. It should be investigated why customers with higher satisfaction purchase fewer items. Moreover, maintaining medium satisfaction levels appears to encourage more purchases, so balancing customer expectations and satisfaction may yield higher sales.
+
+![in2](https://github.com/user-attachments/assets/b3b916f5-2f4b-45ed-aa3f-962c502d480a)
+
+
+3.  ![in3](https://github.com/user-attachments/assets/9eafcc01-6f7e-4219-a8c4-2886b039cbde)
+
+This graph shows that Premium subscribers buy the least amount of items (4.96) in average. However, this amount is almost equal to customers with Trial subscription status (4.98). So there is a concern about the customers not finding it worth their money, if they become a premium user.
+
+4. 	Although lowest portion of the clients are from other genders, they comprise the highest portion of return customers. Lowest return rate can be seen among female customers. A reason behind this could be investigated by looking at low customer rating among female clients. However, it was observed that majority of the lowest ratings came from male customers. Hence, the company should think about how to attract female sellers or try to improve the services or products for female consumers.
+
+5. ![Screensho](https://github.com/user-attachments/assets/e454853d-29e8-4537-a99b-3dbb72019173)
+
+   Out of three devices, Customers spent the most amount of time on their mobile devices followed by Desktop and finally Tablets. User experience should be more optimized for desktop and tablets to hold the attention of the users of these two. More focus should be concentrated on the advertisements and content strategy for desktop and tablet devices. 
+
+
+6. The demographic analysis revealed that individuals aged 18-30 constituted the highest-spending customer segment, with total purchases amounting to 1.14 million. The 51-60 age group followed closely, spending 1 million. The 31-50 age group exhibited the lowest spending, with purchases not exceeding 0.96 million. To optimize sales, a strategic focus on products targeting the 31-50 demographic is recommended.
+
+## Thank YOU! 
+  
+
 
 
  
