@@ -1,6 +1,6 @@
 # <p align="center">Store Sales Dashboard & Analysis by Rantu Adhikary</p>
 # <p align="center">![Screenshot_19](https://github.com/user-attachments/assets/d43b8ebb-00f7-4e02-86f3-5237a519438e)</p>
-## Overview
+## Objective
 This Sales Data Analysis Project, undertaken as part of a Data Innovators Challenge, addresses a series of business questions categorized into three progressively challenging levels. 
 
 Level 1: Basic Insights
@@ -218,6 +218,8 @@ Customers with Medium satisfaction purchased the highest average amount of items
 ![15](https://github.com/user-attachments/assets/22030da9-bbfc-490c-8030-148e67f1acaf)
 
 Mymensingh at 507.89 average purchase amount.
+
+
 
 
 ## LEVEL 3: Critical Thinking Insights
