@@ -51,15 +51,16 @@ The dataset was loaded into Power BI’s power query and cleaned to prepare for 
 ###	Find Mean, Median , Mode (Age)
 ![1](https://github.com/user-attachments/assets/a98ee4ce-27b9-42ef-ba2a-bb0774e0caa7)
 
-DAX calculations for this problem:
-  
-   ```dax
+DAX for this problem:
+
+ ```dax
 Mean Age = AVERAGE(ecommerce_customer_behavior_dataset[Age])
     ```
 
   ```dax
 Median Age = MEDIAN(ecommerce_customer_behavior_dataset[Age])
     ```
+
   ```dax
 Mode Age = 
 MINX (
@@ -74,7 +75,6 @@ MINX (
     ),
     ecommerce_customer_behavior_dataset[Age]
 )
-
     ```
 
 
