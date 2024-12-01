@@ -37,10 +37,18 @@ The data set was provided by the host of the competition, which contained one .c
 ## Data Preparation/Cleaning
 The dataset was loaded into Power BI’s power query and cleaned to prepare for the next step. Data cleaning included the following steps:
 •	Removed duplicates
+
 •	Removed unnecessary columns
+
 •	Checked blank and null values
+
 •	Fixed data types
+
 •	Added a conditional column to group some data
+
+## Solving The Problems
+## LEVEL 1
+#	Find Mean, Median , Mode (Age)
 
 
 
