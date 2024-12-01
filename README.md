@@ -48,20 +48,21 @@ The dataset was loaded into Power BI’s power query and cleaned to prepare for 
 
 ## Solving The Problems
 ## LEVEL 1
+
 ###	Find Mean, Median , Mode (Age)
 ![1](https://github.com/user-attachments/assets/a98ee4ce-27b9-42ef-ba2a-bb0774e0caa7)
 
 DAX for this problem:
 
- ```dax
+   ```dax
 Mean Age = AVERAGE(ecommerce_customer_behavior_dataset[Age])
-    ```
+   ```
 
-  ```dax
+   ```dax
 Median Age = MEDIAN(ecommerce_customer_behavior_dataset[Age])
-    ```
+  ```
 
-  ```dax
+ ```dax
 Mode Age = 
 MINX (
     TOPN(
@@ -75,8 +76,91 @@ MINX (
     ),
     ecommerce_customer_behavior_dataset[Age]
 )
-    ```
+  ```
 
+
+###	Find variance, standard deviation, and z-score (Purchase Amount)
+
+![2](https://github.com/user-attachments/assets/78e094d4-498c-4765-bcb5-af84e94318aa)
+
+
+![2-2](https://github.com/user-attachments/assets/d1169f4a-83a2-4c02-8ef9-30fb3f0eb642)
+
+DAX for this problem:
+
+```dax
+Variance = VAR.P(ecommerce_customer_behavior_dataset[Purchase Amount ($)])
+   ```
+
+   ```dax
+Standard_Deviation = STDEV.P(ecommerce_customer_behavior_dataset[Purchase Amount ($)])
+  ```
+
+ ```dax
+Z Score = DIVIDE(([Summation] - [Mean Purchase]), [Stdev purchase])
+  ```
+
+
+
+###	What are the top three product categories based on the number of purchases?
+
+![3](https://github.com/user-attachments/assets/05e4d090-bb7e-427f-9f29-7dae6968dba6)
+
+Toys , Books and Electronics appeared to be the top most purchased product categories. 
+
+
+### 	How many customers are classified as return customers?
+
+![4](https://github.com/user-attachments/assets/7c2161fe-71f8-4298-88ac-8a8fd0a55073)
+
+Total 5004 customers are resturn customers.
+
+
+
+### 	What is the average review score given by customers?
+
+![5](https://github.com/user-attachments/assets/ee1f0a6b-57aa-4692-a8ef-1c76c58aa213)
+
+
+
+### 	How does the average delivery time vary between subscription statuses? (Free, Premium)?
+
+![6](https://github.com/user-attachments/assets/cd4e71b5-e4c4-4f51-bcbb-d006b9385f99)
+
+| Subscription Status       | Avg. Delivery Time (days)      |
+|---------------------------|--------------------------------|
+| Free                      | 6.96                           |
+| Premium                   | 7.07                           |
+| Trial                     | 7.00                           |
+
+
+
+### How many customers are subscribed to the service?
+
+![7](https://github.com/user-attachments/assets/8aa84602-3064-487d-b2c1-cad835489389)
+
+### 	What percentage of customers used devices to make purchases? (Mobile, Laptop, Tablet)
+
+![8](https://github.com/user-attachments/assets/2893d4fc-9dfb-4879-a457-d73289ddfc26)
+
+Mobile: 33.74%, Desktop: 33.48%, Tablet: 32.78%
+
+
+### 	What is the average purchase amount for customers who availed discounts compared to those who didn’t?
+
+![9](https://github.com/user-attachments/assets/e5974bc8-74d5-4c57-a943-949c60dc5893)
+
+
+0.51k Purchases were made by customers with discounts and 0.5k for those who did not.
+
+
+### 	What is the most common payment method used by customers?
+
+![10](https://github.com/user-attachments/assets/50402bfa-f8f1-4c73-b59e-6b71aa36cafe)
+
+Bank transfer with 1.05 million total purchase amount.
+
+### 
 
 
  
