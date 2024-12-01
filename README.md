@@ -12,5 +12,37 @@ Investigates relationships and correlations among variables to uncover trends an
 Level 3: Critical Thinking Insights
 Tackles complex business questions requiring deep analysis, logical reasoning, and interpretation to provide strategic insights.
 
- This project aims to solve the 3 levels of business questions by building an interactive dashboard in Power BI and dives deeper to find more insights and recommendations.
+This project aims to solve the 3 levels of business questions by building an interactive dashboard in Power BI and dives deeper to find more insights and recommendations.
+
+ ## The Data
+The data set was provided by the host of the competition, which contained one .csv file. The file was downloaded and then imported into Power BI for the analysis. The data contains 16 columns and around 10000 rows. Brief description about the columns in the data files are given in the table below:
+1. Customer ID: Unique identifier for each customer.
+2. Age: The age of the customer.
+3. Gender: Gender of the customer (Male, Female, Other).
+4. Location: The city or region where the customer resides.
+5. Product Category: The category of the product purchased.
+6. Purchase Amount ($): The total amount spent by the customer in dollars.
+7. Time Spent on Website (min): The total time the customer spent on the website, measured in minutes.
+8. Device Type: The type of device the customer used to access the 
+9. Payment Method: The method the customer uses for payment 
+10. Discount Availed: Whether the customer gets a discount during their purchase (True or False).
+11. Number of Items Purchased: The total number of items the customer purchased.
+12. Return Customer: Whether the customer is a returning customer (True or False).
+13. Review Score (1-5): The customer's rating of the product or service, on a scale from 1 to 5.
+14. Delivery Time (days): The number of days it took for the delivery to be completed.
+15. Subscription Status: The type of subscription the customer holds (e.g., Free, Premium, Trial).
+16. Customer Satisfaction: The satisfaction level of the customer, categorized as Low, Medium, or High.
+
+
+## Data Preparation/Cleaning
+The dataset was loaded into Power BI’s power query and cleaned to prepare for the next step. Data cleaning included the following steps:
+•	Removed duplicates
+•	Removed unnecessary columns
+•	Checked blank and null values
+•	Fixed data types
+•	Added a conditional column to group some data
+
+
+
+
  
