@@ -14,6 +14,21 @@ Tackles complex business questions requiring deep analysis, logical reasoning, a
 
 This project aims to solve the 3 levels of business questions by building an interactive dashboard in Power BI and dives deeper to find more insights and recommendations.
 
+## Dashboard Overview
+
+The dashboard comprises of 4 pages with the first page is the cover and acts as a navigator page, which gives an idea about what each page of the dashboard covers.
+The other pages facilitate an interactive design and relevant charts that answer the business problems of the challenge and also provides insights from the data. Some screenshots of the dashboard is given below which can also be downloaded from this repository:
+
+![Cover](https://github.com/user-attachments/assets/87bb092e-f8f3-4213-a796-a46831fda83e)
+
+![KPI 1](https://github.com/user-attachments/assets/dcccd380-66dd-4b1a-ba2a-a23b59bfc7fe)
+
+![PAge 2](https://github.com/user-attachments/assets/025c9f2f-8a42-40d1-b24e-3407423c4263)
+
+![Page 3](https://github.com/user-attachments/assets/c9e26fc4-e691-496b-94ef-f334345954b2)
+
+
+
  ## The Data
 The data set was provided by the host of the competition, which contained one .csv file. The file was downloaded and then imported into Power BI for the analysis. The data contains 16 columns and around 10000 rows. Brief description about the columns in the data files are given in the table below:
 1. Customer ID: Unique identifier for each customer.
@@ -230,6 +245,7 @@ To identify the factors that determine whether a customer is a return customer, 
 ## More Insights 
 
 1. Review scores are relatively high when delivery times are above 7.05 days. However, lower or higher delivery times show slightly lower review scores. Thus, an optimal delivery window of around 7.05 days should be maintained for high customer satisfaction.
+
  ![in1](https://github.com/user-attachments/assets/ce628278-3b4a-4a7a-a771-651f2d15a2c3)
 
 
@@ -238,18 +254,18 @@ To identify the factors that determine whether a customer is a return customer, 
 ![in2](https://github.com/user-attachments/assets/b3b916f5-2f4b-45ed-aa3f-962c502d480a)
 
 
-3.  ![in3](https://github.com/user-attachments/assets/9eafcc01-6f7e-4219-a8c4-2886b039cbde)
+3.  The below graph shows that Premium subscribers buy the least amount of items (4.96) in average. However, this amount is almost equal to customers with Trial subscription status (4.98). So there is a concern about the customers not finding it worth their money, if they become a premium user.
 
-This graph shows that Premium subscribers buy the least amount of items (4.96) in average. However, this amount is almost equal to customers with Trial subscription status (4.98). So there is a concern about the customers not finding it worth their money, if they become a premium user.
+![in3](https://github.com/user-attachments/assets/9eafcc01-6f7e-4219-a8c4-2886b039cbde)
 
 4. 	Although lowest portion of the clients are from other genders, they comprise the highest portion of return customers. Lowest return rate can be seen among female customers. A reason behind this could be investigated by looking at low customer rating among female clients. However, it was observed that majority of the lowest ratings came from male customers. Hence, the company should think about how to attract female sellers or try to improve the services or products for female consumers.
 
-5. ![Screensho](https://github.com/user-attachments/assets/e454853d-29e8-4537-a99b-3dbb72019173)
+5. Out of three devices, Customers spent the most amount of time on their mobile devices followed by Desktop and finally Tablets. User experience should be more optimized for desktop and tablets to hold the attention of the users of these two. More focus should be concentrated on the advertisements and content strategy for desktop and tablet devices.
 
-   Out of three devices, Customers spent the most amount of time on their mobile devices followed by Desktop and finally Tablets. User experience should be more optimized for desktop and tablets to hold the attention of the users of these two. More focus should be concentrated on the advertisements and content strategy for desktop and tablet devices. 
+    ![Screensho](https://github.com/user-attachments/assets/e454853d-29e8-4537-a99b-3dbb72019173)
 
 
-6. The demographic analysis revealed that individuals aged 18-30 constituted the highest-spending customer segment, with total purchases amounting to 1.14 million. The 51-60 age group followed closely, spending 1 million. The 31-50 age group exhibited the lowest spending, with purchases not exceeding 0.96 million. To optimize sales, a strategic focus on products targeting the 31-50 demographic is recommended.
+7. The demographic analysis revealed that individuals aged 18-30 constituted the highest-spending customer segment, with total purchases amounting to 1.14 million. The 51-60 age group followed closely, spending 1 million. The 31-50 age group exhibited the lowest spending, with purchases not exceeding 0.96 million. To optimize sales, a strategic focus on products targeting the 31-50 demographic is recommended.
 
 ## Thank YOU! 
   
